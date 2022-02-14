@@ -1,0 +1,2 @@
+en-core-web-lg==3.1.0
+spacy==3.2.1
