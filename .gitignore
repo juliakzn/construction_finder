@@ -131,3 +131,4 @@ dmypy.json
 # PyCharm and Mac
 .idea
 .DS_Store
+./src/construction_finder/todo.md
