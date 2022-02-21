@@ -3,13 +3,13 @@ from construction_finder.construction_finder_logger import logger
 
 if __name__ == "__main__":
     logger.info("Loaded spacy NLP")
-    # dative_sample_text = "Don’t give me that."
     to_sample_text = "And they gave some of the most wonderful gifts to everyone"
 
     work_space = workspace.WorkSpace.from_nlp_and_txt(config.nlp, to_sample_text)
     active_frames = work_space.run()
     logger.info(f"Active frames:\n {str(work_space.active_frames)}")
 
+    # dative_sample_text = "Don’t give me that."
     # work_space = workspace.WorkSpace.from_nlp_and_txt(nlp, dative_sample_text)
     # active_frames = work_space.run()
     # logger.info(f"Active frames:\n {str(work_space.active_frames)}")

@@ -63,7 +63,7 @@ DATIVE_FRAME = {
             "form": "",
             "requirement_type": "required",
         },
-        2: {
+        1: {
             "variable_or_constant": "variable",
             "synt_type": "NP",
             "roles": {"nsubj": 0.9},
@@ -72,7 +72,7 @@ DATIVE_FRAME = {
             "form": "",
             "requirement_type": "required",
         },
-        3: {
+        2: {
             "variable_or_constant": "variable",
             "synt_type": "NP",
             "roles": {"dobj": 0.9},
@@ -81,7 +81,7 @@ DATIVE_FRAME = {
             "form": "",
             "requirement_type": "required",
         },
-        4: {
+        3: {
             "variable_or_constant": "variable",
             "synt_type": "NP",
             "roles": {"dative": 0.9},

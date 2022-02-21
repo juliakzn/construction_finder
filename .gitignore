@@ -132,3 +132,4 @@ dmypy.json
 .idea
 .DS_Store
 /src/construction_finder/todo.md
+/src/notebooks

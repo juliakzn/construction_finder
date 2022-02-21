@@ -1,7 +1,11 @@
+import pathlib
+
 import pandas as pd
 import spacy
 import workspace
 from construction_finder_logger import logger
+
+LOCAL_DIR = pathlib.Path(__file__).parent.resolve()
 
 
 def process_data(input_file, output_file, input_sep=",", input_encoding="latin-1"):
@@ -15,7 +19,7 @@ def process_data(input_file, output_file, input_sep=",", input_encoding="latin-1
 
 
 if __name__ == "__main__":
-    data_file = "/Users/julia/Dropbox/Computing for Data Analysis/Dative_Genitive_Construction/datives-finalized2.csv"
+    data_file = f"{LOCAL_DIR}/datives.csv"
     data = process_data(data_file, "")
 
     # TODO: create pandas dataframe for output

@@ -125,7 +125,7 @@ class TestWorkSpace:
             + "'required', 'candidates': [[4]], 'bond': [4]}, \n"
             + "{'variable_or_constant': 'variable', 'synt_type': 'NP', 'roles': {'pobj': "
             + "1}, 'head': 1, 'requirements': 'NP', 'form': 'the most wonderful gifts', "
-            + "'requirement_type': 'required', 'candidates': [[1], [5, 6, 7, 8], [10], [3],"
+            + "'requirement_type': 'required', 'candidates': [[1], [5, 6, 7, 8], [10], [3], "
             + "[5]], 'bond': [5, 6, 7, 8]}, \n"
             + "(dependent_processes, NPCreator), \n"
         )

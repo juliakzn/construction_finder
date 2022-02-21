@@ -509,6 +509,9 @@ class FrameFinalizer(Codelet):
                     pattern_found = False
             if pattern_found is False:
                 active_frames = [("remove", self.frame_matcher.frame)]
+                logger.info(
+                    f"Removing frame {self.frame_matcher.frame} from consideration"
+                )
 
         if (self.frame_matcher.frame.frame_dict.get("pattern", False) is False) or (
             pattern_found is True

@@ -52,13 +52,13 @@ class TestFrameFinalizer:
         assert some_frame_finalizer.urgency_level == 1
         assert some_frame_finalizer.temp_modifier == 42
 
-    def test_run(
+    def test_run_some(
         self, some_frame_finalizer, wonderful_gifts_distributive_frame_matcher
     ):
         output = some_frame_finalizer.run()
         assert output.new_active_frames == []
 
-    def test_run(
+    def test_run_everyone(
         self, everyone_frame_finalizer, wonderful_gifts_distributive_frame_matcher
     ):
         output = everyone_frame_finalizer.run()
